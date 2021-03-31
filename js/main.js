@@ -95,15 +95,15 @@ function chatbotvoice(message){
         let finalresult = name[Math.floor(Math.random() * name.length)];
         speech.text = finalresult;
     }
-    if(message.includes('who is your Programmer')){
+    if(message.includes('who is your Programmer''programmer')){
         let finalresult = made[Math.floor(Math.random() * made.length)];
         speech.text = finalresult;
     }
-     if(message.includes('who is rifat')){
+     if(message.includes('who is rifat''who')){
         let finalresult = rifat[Math.floor(Math.random() * rifat.length)];
         speech.text = finalresult;
     }
-     if(message.includes('contact rifat')){
+     if(message.includes('contact rifat''contact')){
         let finalresult = contact[Math.floor(Math.random() * contact.length)];
         speech.text = finalresult;
     }
